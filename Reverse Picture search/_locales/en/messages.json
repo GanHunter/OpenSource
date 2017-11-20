@@ -1,0 +1,109 @@
+{
+	"extensionName": {
+		"message": "Reverse Picture Search"
+	},
+
+	"extensionDescription": {
+		"message": "Add option to the context menu to reverse search a picture on various services"
+	},
+
+	"contextMenuTitle": {
+		"message": "Reverse Pictures Search"
+	},
+
+	"openInBackgroundLabel": {
+		"message": "Open in background"
+	},
+
+	"optionsPageTitle": {
+		"message": "Options"
+	},
+
+	"openTabAtLabel": {
+		"message": "Open the Search page"
+	},
+
+	"openTabAtRight": {
+		"message": "Right to the current tab"
+	},
+
+	"openTabAtLeft": {
+		"message": "Left to the current tab"
+	},
+
+	"openTabAtEnd": {
+		"message": "At the end"
+	},
+
+	"searchProviderLabel": {
+		"message": "Search provider"
+	},
+
+	"providerNamePlaceholder": {
+		"message": "2-15 letters without space"
+	},
+
+	"providerURLPlaceholder": {
+		"message": "http(s):// at begin and %s for pictures url..."
+	},
+
+	"addSearchProvider": {
+		"message": "Add Provider"
+	},
+
+	"restoreDefaultSearchProviders": {
+		"message": "Restore Default"
+	},
+
+	"providerNamePlaceholderError": {
+		"message": "The name of $index$ provider is invalid. Please use the 2-15 letters without space",
+		"placeholders": {
+			"index": {
+				"content": "$1",
+				"description": "Modified options/options.js#i18nOrdinal if need"
+			}
+		}
+	},
+
+	"providerURLPlaceholderError": {
+		"message": "The url of $index$ provider is invalid. Use http(s):// at begin and %s as placeholder for pictures url.",
+		"placeholders": {
+			"index": {
+				"content": "$1",
+				"description": "Modified options/options.js#i18nOrdinal if need"
+			}
+		}
+	},
+
+	"saveOptions": {
+		"message": "Save Options"
+	},
+
+	"msgAtLeastOneSearchProvider": {
+		"message": "Choose at least one search provider"
+	},
+
+	"msgExistEditingSearchProviders": {
+		"message": "Some search provider is editing. Press the ✓ to finish editing."
+	},
+
+	"msgDuplicatedProviderName": {
+		"message": "Some of the search provider name is duplicated!"
+	},
+
+	"msgIconUploadNotImage": {
+		"message": "Upload available picture format here. (png, jpg, ico)"
+	},
+
+	"msgIconUploadNotSquareImage": {
+		"message": "Upload a square picture"
+	},
+
+	"msgSuccessSaveOptions": {
+		"message": "Saved"
+	},
+
+	"contextMenuOpenAll": {
+		"message": "Open All"
+	}
+}

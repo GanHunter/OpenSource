@@ -1,0 +1,63 @@
+body {
+	padding-top: 60px;
+}
+
+.jumbotron {
+	padding: 1.85rem 1.85rem;
+}
+
+.hidden {
+	display: none;
+}
+.custom-control {
+	margin-right: 0;
+}
+
+.custom-control-indicator {
+	background-color:  #f9f75e;
+}
+
+#searchProviderList > div {
+	margin-bottom: 1rem;
+}
+
+#searchProviderList .sp-selected label {
+	margin-right: 0;
+}
+
+#searchProviderList .sp-icon img {
+	max-width: 20px;
+	cursor: pointer;
+}
+
+#searchProviderList .sp-name {
+	text-align: center;
+	background-color: #313744;
+	cursor: pointer;
+}
+
+#searchProviderList .sp-name.sp-edit {
+	background-color: #f9f75e;
+	cursor: initial;
+}
+
+#searchProviderList .sp-url,
+#searchProviderList .sp-status {
+	display: none;
+}
+
+#searchProviderList .sp-status,
+#searchProviderList .sp-remove {
+	cursor: pointer;
+}
+
+#searchProviderList .sp-edit + .sp-url,
+#searchProviderList .sp-edit ~ .sp-status {
+	display: flex;
+}
+
+#searchProviderList .sp-edit:valid + .sp-url:valid + .sp-status .text-danger,
+#searchProviderList .sp-edit:invalid ~ .sp-status .text-success,
+#searchProviderList .sp-url:invalid + .sp-status .text-success {
+	display: none;
+}
